@@ -11,7 +11,7 @@ import { Toaster } from "@/components/ui/toaster";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "YOOM",
+  title: "BOOM",
   description: "Video calling App",
   icons: {
     icon: "/icons/logo.svg",
@@ -31,7 +31,7 @@ export default function RootLayout({
           },
           variables: {
             colorText: "#fff",
-            colorPrimary: "#0E78F9",
+            colorPrimary: "#0E78F9",//sssdfs
             colorBackground: "#1C1F2E",
             colorInputBackground: "#252A41",
             colorInputText: "#fff",

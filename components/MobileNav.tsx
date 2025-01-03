@@ -16,7 +16,7 @@ const MobileNav = () => {
       <Sheet>
         <SheetTrigger asChild>
           <Image
-            src="/icons/hamburger.svg"
+            src="/icons/hamburger.svg"  
             width={36}
             height={36}
             alt="hamburger icon"
@@ -29,9 +29,9 @@ const MobileNav = () => {
               src="/icons/logo.svg"
               width={32}
               height={32}
-              alt="yoom logo"
+              alt="boom logo"
             />
-            <p className="text-[26px] font-extrabold text-white">YOOM</p>
+            <p className="text-[26px] font-extrabold text-white">BOOM</p>
           </Link>
           <div className="flex h-[calc(100vh-72px)] flex-col justify-between overflow-y-auto">
             <SheetClose asChild>
